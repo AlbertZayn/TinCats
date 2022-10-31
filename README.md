@@ -3,4 +3,4 @@ Find the love for you kitty
 
 Demo
 https://albertzayn.github.io/TinCats/
-[TinCat s.pdf](https://github.com/AlbertZayn/TinCats/files/9903309/TinCat.s.pdf)
+https://www.awesomescreenshot.com/image/33926377?key=f7ffe610f60b7588acd4e5209b8a385f
