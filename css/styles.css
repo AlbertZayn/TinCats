@@ -2,13 +2,22 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+
+.container-fluid {
+  padding: 7% 15%;
 }
 
 /* Language buttons */
 
 #language {
   text-align: right;
-  padding: 1% 17% 0.1% 5%;
+  padding: 5% 17% 0 5%;
 }
 
 .lang {
@@ -23,13 +32,18 @@ body {
 /* Title */
 
 #title {
+  text-align: left;
   background: #31e4c6;
   background: -webkit-linear-gradient(111deg, #31e4c6 0%, #ff47ef 100%);
   background: linear-gradient(111deg, #31e4c6 0%, #ff47ef 100%);
   color: #fff;
 }
 
-h1 {
+#title .container-fluid {
+  padding: 0 15% 7%;
+}
+
+.big-heading {
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
@@ -40,10 +54,6 @@ h1 {
   width: 20%;
   position: absolute;
   right: 25%;
-}
-
-.container-fluid {
-  padding: 3% 15% 7%;
 }
 
 .download-button {
@@ -65,6 +75,10 @@ h1 {
   color: #e5c5f8;
 }
 
+.row {
+  padding-top: 2%;
+}
+
 .nav-link {
   font-size: 22px;
   margin: 0 32px !important; 
@@ -75,19 +89,13 @@ h1 {
 #features {
   background-color: #fff;
   margin-bottom: 100px;
-  padding: 3.5% 15% 3.5% 15%;
   z-index: 1;
   position: relative;
 }
 
 .h3-features {
-  font-family: "Montserrat";
   font-weight: 700;
   font-size: 1.5rem;
-}
-
-.features-box {
-  text-align: center;
 }
 
 .par-features {
@@ -106,15 +114,13 @@ h1 {
 /* Testimonials */
 
 #testimonials {
-  text-align: center;
   background: #a6abff;
   background: -webkit-linear-gradient(111deg, #a6abff 0%, #57948f 50%, #ff4dac 100%);
   background: linear-gradient(111deg, #a6abff 0%, #57948f 50%, #ff4dac 100%);
   color: #fff;
 }
 
-h2 {
-  font-family: "Montserrat";
+.testimonials-heading {
   font-weight: 700;
   font-size: 3rem;
   line-height: 1.5;
@@ -126,14 +132,9 @@ h2 {
   margin: 1.5em;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
 /* Press */
 
 #press {
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -145,8 +146,18 @@ h2 {
 /* Pricing  */
 
 #pricing {
-  text-align: center;
   padding: 3% 15% 7%;
+}
+
+.pricing-heading {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-plan {
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 
 .row {
@@ -164,20 +175,14 @@ h2 {
 .card-header {
   background-color: #83c8d0fd;
 }
+
 /* Call to action & footer */
 
 #cta {
-  padding: 7% 15%;
-  text-align: center;
   background: #31e4c6;
   background: -webkit-linear-gradient(111deg, #31e4c6 0%, #ff47ef 100%);
   background: linear-gradient(111deg, #31e4c6 0%, #ff47ef 100%);
   color: #fff;
-}
-
-.h2-cta {
-  padding: 0 5%;
-  font-family: 'Montserrat-Black';
 }
 
 .download-button-bottom {
@@ -185,8 +190,6 @@ h2 {
 }
 
 #footer {
-  padding: 2% 3% 5%;
-  text-align: center;
   background-color: #fff;
 }
 
