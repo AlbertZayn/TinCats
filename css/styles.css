@@ -1,5 +1,3 @@
-/* Selectors */
-
 body {
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -13,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 7% 15%;
 }
 
-/* Language buttons */
+/*/// Language buttons ///*/
 
 #language {
   text-align: right;
@@ -29,14 +27,23 @@ h1, h2, h3, h4, h5, h6 {
   color: #31e4c6;  
 }
 
-/* Title */
+/*/// Background color for Sections ///*/
 
-#title {
-  text-align: left;
+.colored-section {
   background: #31e4c6;
   background: -webkit-linear-gradient(111deg, #31e4c6 0%, #ff47ef 100%);
   background: linear-gradient(111deg, #31e4c6 0%, #ff47ef 100%);
   color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/*/// Title ///*/
+
+#title {
+  text-align: left;
 }
 
 #title .container-fluid {
@@ -60,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 5% 3% 3% 0;
 }
 
-/* Navigation Bar */
+/*/// Navigation Bar ///*/
 
 .navbar {
   padding: 0 0 0 3%;
@@ -84,10 +91,9 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 32px !important; 
 }
 
-/* Features */
+/*/// Features ///*/
 
 #features {
-  background-color: #fff;
   margin-bottom: 100px;
   z-index: 1;
   position: relative;
@@ -111,13 +117,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #5DA7DB
 }
 
-/* Testimonials */
+/*/// Testimonials ///*/
 
 #testimonials {
   background: #a6abff;
   background: -webkit-linear-gradient(111deg, #a6abff 0%, #57948f 50%, #ff4dac 100%);
   background: linear-gradient(111deg, #a6abff 0%, #57948f 50%, #ff4dac 100%);
-  color: #fff;
 }
 
 .testimonials-heading {
@@ -132,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 1.5em;
 }
 
-/* Press */
+/*/// Press ///*/
 
 #press {
   padding-bottom: 3%;
@@ -143,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 1.2em 3em;
 }
 
-/* Pricing  */
+/*/// Pricing  ///*/
 
 #pricing {
   padding: 3% 15% 7%;
@@ -165,39 +170,32 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .pricing-btn {
-  background-color: #b8c3f9;
+  background-color: #83c8d0fd;
+}
+
+.pricing-btn:hover {
+  background-color: #7d9ebe;
 }
 
 .pricing-btn-free:hover {
-  background-color: #b8c3f9;
+  background-color: #7d9ebe;
 }
 
 .card-header {
   background-color: #83c8d0fd;
 }
 
-/* Call to action & footer */
-
-#cta {
-  background: #31e4c6;
-  background: -webkit-linear-gradient(111deg, #31e4c6 0%, #ff47ef 100%);
-  background: linear-gradient(111deg, #31e4c6 0%, #ff47ef 100%);
-  color: #fff;
-}
+/*/// Call to action & footer ///*/
 
 .download-button-bottom {
-  margin: 2% 1%;
-}
-
-#footer {
-  background-color: #fff;
+  margin: 2% 1% ;
 }
 
 .icons-footer {
   padding: 3% 1%;
 }
 
-/* Media part */
+/*/// Media part ///*/
 
 @media (max-width: 1210px) {
 
