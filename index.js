@@ -38,7 +38,7 @@ document.querySelector(".rulang").addEventListener("click", function ruswitch() 
     document.querySelector(".thoroughbred-p-2").innerHTML = "Безлимитное количество пар";
     document.querySelector(".thoroughbred-p-3").innerHTML = "Безлимитные сообщения";
     document.querySelector(".thoroughbred-p-4").innerHTML = "Безлимитное использование";
-    document.querySelector(".big-heading-bottom").innerHTML = "Найдите настоящую любовь для своей питомца прямо сейчас";
+    document.querySelector(".big-heading-bottom").innerHTML = "Найдите настоящую любовь для своего питомца прямо сейчас";
     document.querySelector(".em-1").innerHTML = "Пуся";
     document.querySelector(".em-2").innerHTML = "Альберт";
     document.querySelector(".apple-btn-bottom").innerHTML = '<i class = "bi bi-apple"></i> Загрузить';
